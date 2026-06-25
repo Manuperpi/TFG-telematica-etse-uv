@@ -1,0 +1,17 @@
+tarea,profile,modelo,total_tokens,precio_blended_eur_M,coste_turno_eur,coste_mensual_eur (×50/día)
+sys-stats,rendimiento,openai/gpt-oss-120b:free,32764,0.0,0.0,0.0
+sys-stats,rendimiento,openai/gpt-oss-120b:free,33128,0.0,0.0,0.0
+sys-stats,velocidad,nvidia/nemotron-3-nano-30b-a3b:free,29488,0.0,0.0,0.0
+sys-stats,velocidad,nvidia/nemotron-3-nano-30b-a3b:free,30804,0.0,0.0,0.0
+sys-stats,privacidad,(local),34759,0.0,0.0,0.0
+sys-stats,privacidad,(local),34785,0.0,0.0,0.0
+sys-stats,equilibrio,gemma-4-31b-it,26152,0.2,0.00523,7.845
+sys-stats,equilibrio,gemma-4-31b-it,26153,0.2,0.005231,7.8465
+sec-ssh-attempts,rendimiento,openai/gpt-oss-120b:free,33032,0.0,0.0,0.0
+sec-ssh-attempts,rendimiento,openai/gpt-oss-120b:free,32988,0.0,0.0,0.0
+sec-ssh-attempts,velocidad,nvidia/nemotron-3-nano-30b-a3b:free,41579,0.0,0.0,0.0
+sec-ssh-attempts,velocidad,nvidia/nemotron-3-nano-30b-a3b:free,40442,0.0,0.0,0.0
+sec-ssh-attempts,privacidad,(local),35035,0.0,0.0,0.0
+sec-ssh-attempts,privacidad,(local),35113,0.0,0.0,0.0
+sec-ssh-attempts,equilibrio,gemma-4-31b-it,32567,0.2,0.006513,9.7695
+sec-ssh-attempts,equilibrio,gemma-4-31b-it,32600,0.2,0.00652,9.78

@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-06-21T21:39:33.432385+00:00",
+  "hardware_id": "rtx5060ti",
+  "hardware": {
+    "host": "host-5060ti",
+    "os": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu": "x86_64",
+    "cpu_count": 12,
+    "ram_bytes": 16687955968,
+    "gpu": "29:00.0 VGA compatible controller: NVIDIA Corporation Device 2d04 (rev a1)"
+  },
+  "git_commit": "fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git",
+  "prompts_version": "2026-06-21.1",
+  "ollama": {
+    "version": "0.30.10",
+    "models": [
+      {
+        "name": "functiongemma:270m",
+        "digest": "7c19b650567acfb1bee",
+        "size": 300807157
+      },
+      {
+        "name": "qwen3.5:9b",
+        "digest": "6488c96fa5faab64bb6",
+        "size": 6594474711
+      },
+      {
+        "name": "granite4.1:3b",
+        "digest": "6fd349357287c7ffc9e",
+        "size": 2099520281
+      },
+      {
+        "name": "ministral-3:8b",
+        "digest": "1922accd5827ebe6829",
+        "size": 6022236616
+      },
+      {
+        "name": "nemotron-3-nano:4b",
+        "digest": "6cc467f054393a55e98",
+        "size": 2837597147
+      },
+      {
+        "name": "qwen3.5:4b",
+        "digest": "2a654d98e6fba55d452",
+        "size": 3389983735
+      },
+      {
+        "name": "gemma4:e4b",
+        "digest": "c6eb396dbd5992bbe3f",
+        "size": 9608350718
+      }
+    ],
+    "num_ctx": 16384,
+    "num_parallel": "1",
+    "hsa_override": "(contenedor)"
+  },
+  "env": {
+    "default_profile": "equilibrio",
+    "privacy_profile": "privacidad",
+    "temperature": 0.0,
+    "openrouter_enabled": false,
+    "ollama_enabled": true,
+    "ollama_model": "ollama:gemma4:e4b",
+    "profiles": {
+      "rendimiento": [
+        "google_genai:gemma-4-31b-it",
+        "google_genai:gemma-4-26b-a4b-it",
+        "ollama:gemma4:e4b"
+      ],
+      "velocidad": [
+        "google_genai:gemma-4-26b-a4b-it",
+        "ollama:gemma4:e4b"
+      ],
+      "privacidad": [
+        "ollama:gemma4:e4b"
+      ],
+      "equilibrio": [
+        "google_genai:gemma-4-31b-it",
+        "google_genai:gemma-4-26b-a4b-it",
+        "ollama:gemma4:e4b"
+      ]
+    }
+  }
+}

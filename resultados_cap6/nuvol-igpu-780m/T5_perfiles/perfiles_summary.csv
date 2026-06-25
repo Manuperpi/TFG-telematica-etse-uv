@@ -1,0 +1,25 @@
+tarea,profile,lat_median_s,lat_min_s,lat_max_s,tokens_median,modelos,errores,profile_final_ej
+sys-stats,potencia,54.071,47.696,60.446,33702.0,"google_genai:gemma-4-31b-it, openrouter:openai/gpt-oss-120b:free",0,potencia
+sys-stats,velocidad,10.8,10.651,10.949,30059.0,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sys-stats,privacidad,4.822,4.532,5.112,0.0,(local),2,privacidad
+sys-stats,equilibrio,35.7815,31.866,39.697,26368.0,google_genai:gemma-4-31b-it,0,equilibrio
+sys-top-cpu,potencia,37.352,31.438,43.266,33249.5,openrouter:openai/gpt-oss-120b:free,0,potencia
+sys-top-cpu,velocidad,27.593999999999998,13.403,41.785,65737.0,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sys-top-cpu,privacidad,32.122,17.582,46.662,34791.5,(local),0,privacidad
+sys-top-cpu,equilibrio,62.571,57.413,67.729,26704.0,google_genai:gemma-4-31b-it,0,equilibrio
+sec-ssh-attempts,potencia,43.459500000000006,41.209,45.71,29887.5,"google_genai:gemma-4-31b-it, openrouter:openai/gpt-oss-120b:free",0,potencia
+sec-ssh-attempts,velocidad,19.441,16.47,22.412,41545.5,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sec-ssh-attempts,privacidad,46.481,43.182,49.78,35759.5,(local),0,privacidad
+sec-ssh-attempts,equilibrio,63.993,48.821,79.165,26791.0,google_genai:gemma-4-31b-it,0,equilibrio
+sec-auth,potencia,60.1975,38.536,81.859,35756.0,openrouter:openai/gpt-oss-120b:free,0,potencia
+sec-auth,velocidad,18.9655,16.814,21.117,40665.0,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sec-auth,privacidad,42.4465,41.229,43.664,35768.5,(local),0,privacidad
+sec-auth,equilibrio,106.407,77.703,135.111,26427.5,"google_genai:gemma-4-26b-a4b-it, google_genai:gemma-4-31b-it",0,equilibrio
+sec-firewall,potencia,31.496000000000002,26.788,36.204,9003.0,openrouter:openai/gpt-oss-120b:free,0,potencia
+sec-firewall,velocidad,23.5945,20.696,26.493,42228.5,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sec-firewall,privacidad,4.813000000000001,4.556,5.07,0.0,(local),2,privacidad
+sec-firewall,equilibrio,51.6315,40.984,62.279,26545.0,google_genai:gemma-4-31b-it,0,equilibrio
+sec-ports,potencia,27.485,24.313,30.657,32845.5,openrouter:openai/gpt-oss-120b:free,0,potencia
+sec-ports,velocidad,20.9945,20.403,21.586,41611.0,openrouter:nvidia/nemotron-3-nano-30b-a3b:free,0,velocidad
+sec-ports,privacidad,35.935,4.593,67.277,17795.0,(local),1,privacidad
+sec-ports,equilibrio,63.6965,59.252,68.141,30888.5,"google_genai:gemma-4-26b-a4b-it, google_genai:gemma-4-31b-it",0,equilibrio

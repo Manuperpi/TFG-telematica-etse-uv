@@ -1,0 +1,5 @@
+ruta,K,total_s,throughput_turnos_s,lat_mean_s,lat_max_s
+privacidad,1,4.82,0.2074,4.82,4.82
+privacidad,2,9.76,0.205,9.49,9.76
+privacidad,4,15.51,0.2579,14.59,15.51
+privacidad,8,36.81,0.2174,33.65,36.81

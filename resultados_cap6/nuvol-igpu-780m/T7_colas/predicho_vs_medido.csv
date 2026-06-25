@@ -1,0 +1,5 @@
+ruta,K,medido_total_s,predicho_total_s,throughput_medido,mu_local
+local,1,20.93,21.1,0.0478,0.0473
+local,2,35.04,42.3,0.0571,0.0473
+local,4,68.3,84.5,0.0586,0.0473
+local,8,154.02,169.0,0.0519,0.0473

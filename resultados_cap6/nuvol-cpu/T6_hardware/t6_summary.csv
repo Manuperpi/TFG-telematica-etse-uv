@@ -1,0 +1,8 @@
+modelo,max_ctx_estable,prefill_s,prefill_tokens,piloto_agente_ok,piloto_s,piloto_error,piloto_tools
+gemma4:e4b,131072,35.1,4034,,,,
+qwen3.5:4b,131072,39.9,4483,,,,
+nemotron-3-nano:4b,131072,44.6,4708,,,,
+ministral-3:8b,65536,81.9,4697,,,,
+granite4.1:3b,65536,38.4,4480,,,,
+qwen3.5:9b,131072,67.9,4483,,,,
+functiongemma:270m,131072,2.1,4036,,,,

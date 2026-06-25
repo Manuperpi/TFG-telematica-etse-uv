@@ -1,0 +1,5 @@
+perfil,ruta,n,acierto_pct,calidad_media,fidelidad
+equilibrio,nube,11,100.0,4.76,4.82
+potencia,nube,6,83.3,3.89,4.0
+privacidad,local,10,90.0,4.0,4.2
+velocidad,nube,5,100.0,4.93,5.0

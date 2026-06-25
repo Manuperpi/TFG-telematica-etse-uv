@@ -1,0 +1,17 @@
+model,grupo,n,ok,wrong,none,errors,acierto_pct,lat_median_s,lat_p95_s,lat_min_s,lat_max_s,lat_stdev_s,tok_s_median,spec
+openai/gpt-oss-120b:free,pool,140,140,0,0,0,100.0,2.274,5.7458,1.508,21.961,2.3237035404891118,17.0,openrouter:openai/gpt-oss-120b:free
+nvidia/nemotron-3-nano-30b-a3b:free,pool,140,93,0,2,45,66.4,1.553,3.0256,0.96,3.707,0.5986884783190856,104.66,openrouter:nvidia/nemotron-3-nano-30b-a3b:free
+gemma-4-31b-it,pool,140,140,0,0,0,100.0,7.5329999999999995,18.14639999999994,2.048,42.006,5.781396821098705,12.21,google_genai:gemma-4-31b-it
+gemma-4-26b-a4b-it,pool,140,130,10,0,0,92.9,3.5694999999999997,13.745199999999988,1.262,25.279,4.342116259500707,22.625,google_genai:gemma-4-26b-a4b-it
+openai/gpt-oss-20b:free,extra,140,140,0,0,0,100.0,1.7785,3.379449999999994,1.289,8.36,0.7944535435487357,18.455,openrouter:openai/gpt-oss-20b:free
+nvidia/nemotron-nano-9b-v2:free,extra,140,140,0,0,0,100.0,3.901,6.972899999999997,2.358,18.811,2.1340093887385994,44.58,openrouter:nvidia/nemotron-nano-9b-v2:free
+nvidia/nemotron-3-super-120b-a12b:free,descarte,28,26,0,2,0,92.9,2.8455,15.07145,1.242,26.935,5.906915162631034,18.91,openrouter:nvidia/nemotron-3-super-120b-a12b:free
+nvidia/nemotron-3-ultra-550b-a55b:free,descarte,28,6,2,0,20,21.4,201.811,280.4401,116.048,287.62,64.42347910687822,0.42000000000000004,openrouter:nvidia/nemotron-3-ultra-550b-a55b:free
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,descarte,28,18,0,0,10,64.3,1.463,2.065649999999996,0.957,4.268,0.6856072103716385,105.41,openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+gemma4:e4b,local,140,128,0,10,2,91.4,1.088,3.3203,0.757,8.816,0.9061815497474607,14.43,ollama:gemma4:e4b
+qwen3.5:4b,local,140,139,0,0,1,99.3,1.608,3.6681999999999997,0.985,10.07,1.0330795070289989,17.82,ollama:qwen3.5:4b
+nemotron-3-nano:4b,local,140,139,0,0,1,99.3,1.521,3.5370999999999997,0.97,9.277,0.9767423531037066,18.45,ollama:nemotron-3-nano:4b
+ministral-3:8b,local,140,127,0,10,3,90.7,1.4,11.972599999999998,0.643,12.698,2.9615005441432443,9.67,ollama:ministral-3:8b
+granite4.1:3b,local,140,139,0,0,1,99.3,1.022,1.3512,0.775,5.712,0.43254451231855623,21.28,ollama:granite4.1:3b
+qwen3.5:9b,local,140,139,0,0,1,99.3,3.15,6.134399999999999,1.441,14.441,1.549869278786446,9.0,ollama:qwen3.5:9b
+functiongemma:270m,local,140,10,20,109,1,7.1,0.747,1.3359999999999999,0.348,2.788,0.33749049661987734,50.91,ollama:functiongemma:270m

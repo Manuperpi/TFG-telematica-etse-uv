@@ -1,0 +1,8 @@
+modelo,max_ctx_estable,prefill_s,prefill_tokens,piloto_agente_ok,piloto_s,piloto_error,piloto_tools
+gemma4:e4b,131072,,0,False,44.5,ResponseError,
+qwen3.5:4b,65536,9.5,4483,False,27.7,ResponseError,
+nemotron-3-nano:4b,32768,9.5,4708,False,73.3,,"ls,task,write_todos"
+ministral-3:8b,16384,14.0,4697,False,0.7,ResponseError,
+granite4.1:3b,32768,7.7,4480,False,300.2,TimeoutError,
+qwen3.5:9b,16384,,0,False,0.8,ResponseError,
+functiongemma:270m,131072,1.0,4036,False,2.4,,

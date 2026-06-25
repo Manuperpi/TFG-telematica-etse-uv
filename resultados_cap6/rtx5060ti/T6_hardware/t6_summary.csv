@@ -1,0 +1,8 @@
+modelo,max_ctx_estable,prefill_s,prefill_tokens,piloto_agente_ok,piloto_s,piloto_error,piloto_tools
+gemma4:e4b,131072,1.3,4034,True,27.4,,"generate_diagram,listening_ports,system_stats,task"
+qwen3.5:4b,131072,1.4,4483,False,16.7,,"docker_status,system_stats,task,top_processes"
+nemotron-3-nano:4b,131072,1.5,4708,False,18.1,,"ls,task,write_todos"
+ministral-3:8b,131072,1.9,4697,True,38.2,,"docker_status,service_status,system_stats,task,top_processes"
+granite4.1:3b,131072,0.9,4480,True,24.2,,"generate_diagram,write_file"
+qwen3.5:9b,131072,2.0,4483,True,61.0,,"check_firewall_rules,docker_status,generate_diagram,listening_ports,service_status,system_stats,task,top_processes"
+functiongemma:270m,131072,0.5,4036,False,0.8,,

@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-06-21T21:14:30.286711+00:00",
+  "hardware_id": "nuvol-cpu",
+  "hardware": {
+    "host": "nuvol",
+    "os": "Linux-6.8.0-117-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu": "x86_64",
+    "cpu_count": 16,
+    "ram_bytes": 29222113280,
+    "gpu": "66:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Phoenix3 (rev b3)"
+  },
+  "git_commit": "fatal: not a git repository (or any of the parent directories): .git",
+  "prompts_version": "2026-06-21.1",
+  "ollama": {
+    "version": "0.30.5",
+    "models": [
+      {
+        "name": "functiongemma:270m",
+        "digest": "7c19b650567acfb1bee",
+        "size": 300807157
+      },
+      {
+        "name": "lfm2.5:8b",
+        "digest": "9cf756159fc2f3b9128",
+        "size": 5156075525
+      },
+      {
+        "name": "qwen3.5:9b",
+        "digest": "6488c96fa5faab64bb6",
+        "size": 6594474711
+      },
+      {
+        "name": "ministral-3:8b",
+        "digest": "1922accd5827ebe6829",
+        "size": 6022236616
+      },
+      {
+        "name": "nemotron-3-nano:4b",
+        "digest": "6cc467f054393a55e98",
+        "size": 2837597147
+      },
+      {
+        "name": "granite4.1:3b",
+        "digest": "6fd349357287c7ffc9e",
+        "size": 2099520281
+      },
+      {
+        "name": "qwen3.5:4b",
+        "digest": "2a654d98e6fba55d452",
+        "size": 3389983735
+      },
+      {
+        "name": "qwen3:8b",
+        "digest": "500a1f067a9f782620b",
+        "size": 5225388164
+      },
+      {
+        "name": "qwen3:latest",
+        "digest": "500a1f067a9f782620b",
+        "size": 5225388164
+      },
+      {
+        "name": "gemma4:e4b",
+        "digest": "c6eb396dbd5992bbe3f",
+        "size": 9608350718
+      },
+      {
+        "name": "gemma4:12b",
+        "digest": "4eb23ef187e2c546256",
+        "size": 7556508396
+      },
+      {
+        "name": "llama3:latest",
+        "digest": "365c0bd3c000a25d28d",
+        "size": 4661224676
+      }
+    ],
+    "num_ctx": 16384,
+    "num_parallel": "1",
+    "hsa_override": "(contenedor)"
+  },
+  "env": {
+    "default_profile": "equilibrio",
+    "privacy_profile": "privacidad",
+    "temperature": 0.0,
+    "openrouter_enabled": true,
+    "ollama_enabled": true,
+    "ollama_model": "ollama:gemma4:e4b",
+    "profiles": {
+      "rendimiento": [
+        "openrouter:openai/gpt-oss-120b:free",
+        "google_genai:gemma-4-31b-it",
+        "google_genai:gemma-4-26b-a4b-it",
+        "ollama:gemma4:e4b"
+      ],
+      "velocidad": [
+        "openrouter:nvidia/nemotron-3-nano-30b-a3b:free",
+        "google_genai:gemma-4-26b-a4b-it",
+        "ollama:gemma4:e4b"
+      ],
+      "privacidad": [
+        "ollama:gemma4:e4b"
+      ],
+      "equilibrio": [
+        "google_genai:gemma-4-31b-it",
+        "google_genai:gemma-4-26b-a4b-it",
+        "openrouter:openai/gpt-oss-120b:free",
+        "ollama:gemma4:e4b"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[project]
+name = "tfg-agente"
+version = "0.1.0"
+description = "Agente de IA (sysadmin/seguridad/pentesting) para Linux, vía Telegram, con enrutamiento adaptativo de modelos por perfil"
+requires-python = ">=3.11"
+dependencies = [
+    # --- Núcleo del agente ---
+    "deepagents>=0.6.8",            # API verificada (create_deep_agent, backends, skills, HITL)
+    "langchain>=1.0",
+    "langgraph>=1.0",
+    # --- Proveedores de modelos (LLM) ---
+    "langchain-google-genai>=3.0",   # Gemma 31B / 26B
+    "langchain-openrouter>=0.0.1",   # OpenRouter (modelos :free)
+    "langchain-ollama>=0.3",         # modelo local (perfil privacidad/velocidad)
+    # --- Interfaz ---
+    "aiogram>=3.13",                 # bot de Telegram
+    "telegramify-markdown>=0.2",     # Markdown del LLM → formato Telegram (MarkdownV2)
+    # --- Herramientas ---
+    "psutil>=5.9",                   # CPU/RAM/disco/procesos (sysadmin)
+    "dnspython>=2.6",                # dns_recon
+    "httpx>=0.27",                   # subdomain_lookup / cve_search / Kroki
+    # --- Infraestructura ---
+    "python-dotenv>=1.0",            # carga del .env
+    # --- MCP (cliente): conecta al servidor OFICIAL de Google Threat Intelligence ---
+    # El servidor (repo google/mcp-security, GTI) se lanza con 'uv' desde el repo
+    # clonado (requiere 'uv' y VT_APIKEY); aquí solo va el cliente.
+    "langchain-mcp-adapters>=0.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["agent", "bot", "botutils"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["router*", "tools*"]
