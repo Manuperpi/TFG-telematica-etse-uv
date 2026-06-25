@@ -61,12 +61,6 @@ autorizarte. Para obtenerlo:
 Cuando me lo envíes, te añado a la lista blanca y podrás escribirle al bot en
 **@TFG_ETSE_bot**.
 
-## Memoria del TFG
-
-La memoria completa del trabajo se depositará en RODERIC, el repositorio
-institucional de la Universitat de València, tras la defensa. Este repositorio
-contiene únicamente el código del agente y los datos de la evaluación experimental.
-
 ## Licencia
 
 Distribuido bajo licencia MIT. Véase el fichero [LICENSE](LICENSE).
