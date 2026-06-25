@@ -10,7 +10,7 @@ consultas sensibles **exclusivamente en local**.
 Código del Trabajo Fin de Grado del Grado en Ingeniería Telemática (ETSE-UV).
 
 - **Autor:** Manuel Perpiñá Martínez
-- **Tutores:** Antonio Soriano Asensi · Juan Gutiérrez Aguado
+- **Tutores:** Antonio S · Juan G
 - **Universitat de València — Escola Tècnica Superior d'Enginyeria**, 2026
 
 ## Estructura del repositorio
@@ -47,11 +47,6 @@ Las claves necesarias (Telegram, Google AI Studio, OpenRouter, VirusTotal) se
 obtienen de forma gratuita en cada proveedor. El fichero `.env` con los secretos
 reales **no** se incluye en este repositorio.
 
-## Memoria del TFG
-
-La memoria completa del trabajo está depositada en RODERIC, el repositorio
-institucional de la Universitat de València. Este repositorio contiene únicamente
-el código del agente y los datos de la evaluación experimental.
 
 ## Licencia
 
