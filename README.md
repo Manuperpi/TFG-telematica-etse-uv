@@ -10,7 +10,7 @@ consultas sensibles **exclusivamente en local**.
 Código del Trabajo Fin de Grado del Grado en Ingeniería Telemática (ETSE-UV).
 
 - **Autor:** Manuel Perpiñá Martínez
-- **Tutores:** Antonio S · Juan G
+- **Tutores:** Antonio S. · Juan G.
 - **Universitat de València — Escola Tècnica Superior d'Enginyeria**, 2026
 
 ## Estructura del repositorio
@@ -47,6 +47,25 @@ Las claves necesarias (Telegram, Google AI Studio, OpenRouter, VirusTotal) se
 obtienen de forma gratuita en cada proveedor. El fichero `.env` con los secretos
 reales **no** se incluye en este repositorio.
 
+## Probar el agente
+
+El bot funciona sobre mi propio despliegue, con una lista blanca de usuarios
+autorizados. Si quieres probarlo por Telegram, escríbeme a
+**permarma@alumni.uv.es** con tu id de usuario de Telegram, que necesito para
+autorizarte. Para obtenerlo:
+
+1. En Telegram, abre **@userinfobot** ([t.me/userinfobot](https://t.me/userinfobot)).
+2. Pulsa **Iniciar**.
+3. Te responderá con tus datos y tu id.
+
+Cuando me lo envíes, te añado a la lista blanca y podrás escribirle al bot en
+**@TFG_ETSE_bot**.
+
+## Memoria del TFG
+
+La memoria completa del trabajo se depositará en RODERIC, el repositorio
+institucional de la Universitat de València, tras la defensa. Este repositorio
+contiene únicamente el código del agente y los datos de la evaluación experimental.
 
 ## Licencia
 
